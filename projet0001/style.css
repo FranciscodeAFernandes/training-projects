@@ -16,7 +16,8 @@ main {
     margin: auto;
     background-color: rgb(255, 255, 255);
     color: black;
-    max-width: 800px;
+    max-width: 700px;
+    height: 700px;
     padding: 40px;
     border: 2px solid black;
     border-radius: 50px;
@@ -28,6 +29,7 @@ h1 {
     color: rgb(255, 255, 255);
     max-width: 220px;
     padding: 10px;
+    margin-bottom: 30px;
     border: 1px solid black;
     border-radius: 0px 20px;
 }
@@ -51,9 +53,34 @@ h2 {
     margin-bottom: 5px;
 }
 
+section.informacoes {
+    background-color: rgb(73, 73, 73);
+    color: white;
+    height: 100px;
+    width: 490px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid green;
+    border-radius: 0px 40px;
+}
+
 img {
     max-width: 100%;
     border: 2px solid black;
+    box-shadow: 2px 2px 10px;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    margin-top: 40px;
+    font-size: 30px;
+    border: 2px solid rgb(66, 141, 66);
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #189E4A;
 }
 
 ul {
