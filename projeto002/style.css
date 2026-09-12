@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo {
+    background-color: rgb(41, 136, 196);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav > a {
+    display: flexbox;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+    text-align: left;
+}
+
+
+a:hover {
+    background-color: rgb(177, 177, 177);
+    transition: 1s;
+}
