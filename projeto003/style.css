@@ -21,6 +21,7 @@ main {
 nav {
     background-color: #ce2340;
     padding: 10px;
+    width: 100%;
 }
 
 a {
@@ -30,6 +31,7 @@ a {
     border: 1px solid black;
     padding-right: 20px;
     margin-right: 20px;
+    width: 100%;
     transition-duration: 0.5s;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.596);
 }
@@ -46,7 +48,7 @@ a:hover {
 }
 
 #secaomaior {
-    max-width: 650px;
+    width: 100%;
 }
 
 h2 {
@@ -55,6 +57,7 @@ h2 {
     justify-content: center;
     font-size: 30px;
     background-image: linear-gradient(to top, #ce2340, rgb(163, 30, 75),#6f1b2c);
+    width: 100%;
     max-width: 480px;
     min-height: 90px;
     margin-top: 20px;
@@ -62,20 +65,6 @@ h2 {
     margin-left: 20px;
     border-radius: 50px;
     box-shadow: 3px 3px 15px black;
-}
-
-#imagemcaixa {
-    position: relative
-}
-
-#grafico {
-    position: absolute;
-    bottom: 140px;
-    left: 780px;
-    width: 100%;
-    max-width: 100px;
-    border: 2px solid black;
-    border-radius: 30px;
 }
 
 p {
@@ -126,12 +115,41 @@ img {
     display: flex;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 40px;
     border-radius: 100px;
+    border: 1px solid black;
     max-width: 100%;
-    min-width: 50%;
+}
+
+#imagemcaixa {
+    position: relative
+}
+
+#grafico {
+    position: absolute;
+    bottom: 10%;
+    left: 55%;
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid black;
+    border-radius: 30px;
 }
 
 #secaopropostas {
     background-color: white;
     padding-top: 30px;
+}
+
+.inf {
+    display: flex;
+    background-image: linear-gradient(to top, #f8db7e, #ec6349, #6f1b2c);
+    font-size: 30px;
+    width: 100%;
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    margin: auto;
+    border-radius: 50px;
+    margin-bottom: 20px;
 }
