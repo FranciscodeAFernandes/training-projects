@@ -58,7 +58,7 @@ h2 {
     font-size: 30px;
     background-image: linear-gradient(to top, #ce2340, rgb(163, 30, 75),#6f1b2c);
     width: 100%;
-    max-width: 480px;
+    width: 480px;
     min-height: 90px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -118,7 +118,7 @@ img {
     margin-bottom: 40px;
     border-radius: 100px;
     border: 1px solid black;
-    max-width: 100%;
+    max-width: 96%;
 }
 
 #imagemcaixa {
