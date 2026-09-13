@@ -154,7 +154,7 @@ img {
     margin-bottom: 20px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1260px) {
     #grafico {
         position: static; /* Isso "desliga" o absolute e faz a imagem parar de flutuar */
         width: 90%;       /* Deixa a imagem com 90% da tela para não encostar nas bordas */
