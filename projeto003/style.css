@@ -127,14 +127,12 @@ img {
 
 #grafico {
     position: absolute;
-    bottom: 10%;
+    bottom: 50%;
     left: 55%;
     width: 100vw;
     max-width: 600px;
     border: 2px solid black;
-    border-radius: 30px;
-    position: static; 
-    width: 90%;
+    border-radius: 30px; 
 }
 
 #secaopropostas {
@@ -154,4 +152,12 @@ img {
     margin: auto;
     border-radius: 50px;
     margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    #grafico {
+        position: static; /* Isso "desliga" o absolute e faz a imagem parar de flutuar */
+        width: 90%;       /* Deixa a imagem com 90% da tela para não encostar nas bordas */
+        margin: 20px auto; /* Dá um espaço em cima e embaixo, e centraliza */
+    }
 }
