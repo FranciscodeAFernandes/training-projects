@@ -72,7 +72,8 @@ h2 {
     position: absolute;
     bottom: 140px;
     left: 780px;
-    max-width: 600px;
+    width: 100%;
+    max-width: 100px;
     border: 2px solid black;
     border-radius: 30px;
 }
