@@ -20,6 +20,7 @@ header > img {
     display: flex;
     margin: auto;
     max-width: 500px;
+    max-height: 500px;
     margin-top: 20vh;
     padding-bottom: 0px;
 }
