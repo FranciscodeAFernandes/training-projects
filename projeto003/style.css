@@ -204,7 +204,7 @@ header > div > h1 {
 
 #psobre {
     background-color: rgba(146, 4, 212, 0.418);
-    width: 1100px;
+    max-width: 1100px;
     margin: auto;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -281,6 +281,11 @@ header > div > h1 {
     .containersobre > div > p {
         font-size: 22px;
         margin-bottom: 10px;
+    }
+
+    #psobre {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
