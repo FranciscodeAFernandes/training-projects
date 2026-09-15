@@ -5,6 +5,10 @@
     margin: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     background-color: white;
     padding-top: 20px;
@@ -189,16 +193,117 @@ header > div > h1 {
     border-bottom: 2px solid black;
 }
 
-.textosobre {
+#sessao2 > p {
     text-align: center;
     font-size: x-large;
     font-weight: bold;
-    padding-bottom: 120px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+
+#psobre {
+    background-color: rgba(146, 4, 212, 0.418);
+    width: 1100px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.containersobre {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom right, rgb(81, 81, 190), white, rgb(225, 0, 255));
+    padding-top: 40px;
+}
+
+#imagemdados {
+    border: 1px solid black;
+    width: 300px;
+}
+#imagemseguranca {
+    border: 1px solid black;
+    width: 500px;
+}
+
+#imagemservidor {
+    border: 1px solid black;
+    width: 400px;
 }
 
 .imagenssobre {
-    border: 2px solid rgba(100, 0, 231, 0.705);
-    border-radius: 70px;
+    transition: transform 1s ease;
 }
 
+.imagenssobre:hover {
+    transform: translateY(-20px);
+}
+
+#imagemdados:hover, #imagemseguranca:hover, #imagemservidor:hover {
+    border: 5px solid rgba(111, 0, 255, 0.658);
+    border-radius: 40px;
+}
+
+.containersobre > div > h2 {
+    width: 250px;
+    margin: auto;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.containersobre > div > p {
+    width: 300px;
+}
+
+@media (max-width: 390px) {
+    .containersobre {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+
+    #imagemseguranca {
+        width: 99%;
+    }
+
+    #imagemdados {
+        width: 99%;
+    }
+
+    #imagemservidor {
+        width: 99%;
+    }
+
+    .containersobre > div > p {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+}
+
+.divsobre {
+    background-color: rgb(255, 255, 255);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    border: 1px solid black;
+}
+
+.divsobre > h2 {
+    background-color: rgba(11, 15, 231, 0.493);
+}
+
+@media (max-width: 390px) {
+    .containersobre {
+        padding-right: 15px;
+        padding-left: 15px;
+        
+    }
+
+    .divsobre {
+        margin-bottom: 30px;
+    }
 }
