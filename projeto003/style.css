@@ -285,11 +285,12 @@ header > div > h1 {
 }
 
 .divsobre {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.233);
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 20px;
-    border: 1px solid black;
+    border: 2px solid black;
+    border-radius: 20px;
 }
 
 .divsobre > h2 {
